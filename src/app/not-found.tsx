@@ -54,11 +54,11 @@ export default function NotFound() {
           transition={{ duration: 0.5, ease: EASE, delay: 0.44 }}
         >
           <Link
-            href="/"
+            href="/portfolio"
             className="group inline-flex items-baseline gap-3 font-mono text-[11px] uppercase tracking-[0.18em] text-paper transition-colors hover:text-accent sm:text-[12px]"
           >
             <span className="h-px w-10 bg-accent transition-all duration-200 group-hover:w-14" aria-hidden />
-            Back to home
+            Go to portfolio
           </Link>
         </motion.div>
       </div>
