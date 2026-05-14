@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Bricolage_Grotesque, JetBrains_Mono, Aref_Ruqaa } from "next/font/google";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/next";
 import { MotionProvider } from "@/components/motion-provider";
 import { ScrollReset } from "@/components/scroll-reset";
 
@@ -56,7 +55,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <ScrollReset />
         <MotionProvider>{children}</MotionProvider>
-        <Analytics />
         {/* impeccable-live-start */}
         {process.env.NODE_ENV === "development" && (
           // eslint-disable-next-line @next/next/no-sync-scripts
