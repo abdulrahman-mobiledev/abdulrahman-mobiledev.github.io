@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { motion } from "motion/react";
 import { EASE } from "@/lib/motion";
 
@@ -47,20 +46,6 @@ export default function NotFound() {
         >
           The page you&apos;re looking for doesn&apos;t exist, or has moved.
         </motion.p>
-
-        <motion.div
-          initial={{ opacity: 0, y: 8 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: EASE, delay: 0.44 }}
-        >
-          <Link
-            href="/portfolio"
-            className="group inline-flex items-baseline gap-3 font-mono text-[11px] uppercase tracking-[0.18em] text-paper transition-colors hover:text-accent sm:text-[12px]"
-          >
-            <span className="h-px w-10 bg-accent transition-all duration-200 group-hover:w-14" aria-hidden />
-            Go to portfolio
-          </Link>
-        </motion.div>
       </div>
     </main>
   );
