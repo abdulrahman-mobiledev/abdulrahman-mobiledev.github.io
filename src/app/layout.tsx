@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   title: "Abdulrahman Mohammed · Senior React Native + Expo developer",
   description:
     "Senior React Native and Expo developer based in Cairo. Five years shipping production iOS and Android apps. Open to senior mobile roles and contracts.",
-  metadataBase: new URL("https://abdulrahmandev.vercel.app"),
+  metadataBase: new URL("https://abdulrahman-mobiledev.github.io"),
   openGraph: {
     title: "Abdulrahman Mohammed · Senior React Native + Expo developer",
     description:

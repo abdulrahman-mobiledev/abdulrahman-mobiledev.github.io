@@ -10,6 +10,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://abdulrahmandev.vercel.app/sitemap.xml",
+    sitemap: "https://abdulrahman-mobiledev.github.io/sitemap.xml",
   };
 }
